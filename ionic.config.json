@@ -1,0 +1,7 @@
+{
+  "name": "ionic-form-app",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "react"
+}
