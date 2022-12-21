@@ -1,3 +1,9 @@
 ion-text {
     margin-bottom: 10px;
 }
+
+ion-thumbnail {
+    --size: 300px;
+    --border-radius: 14px;
+    margin:0 auto;
+}
