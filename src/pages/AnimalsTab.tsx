@@ -1,20 +1,9 @@
-import { IonContent, IonHeader, IonPage, IonTitle, IonToolbar } from '@ionic/react';
+import MainPage from '../components/Layout/MainPage';
 
 const Tab2: React.FC = () => {
   return (
-    <IonPage>
-      <IonHeader>
-        <IonToolbar>
-          <IonTitle>Animals</IonTitle>
-        </IonToolbar>
-      </IonHeader>
-      <IonContent fullscreen>
-        <IonHeader collapse="condense">
-          <IonToolbar>
-            <IonTitle size="large">Animals</IonTitle>
-          </IonToolbar>
-        </IonHeader>
-        <div className="ion-padding">
+    <MainPage heading='Animals'>
+      <div className="ion-padding">
           <h1>Animal Facts</h1>
 
           <h2>Rhinoceros</h2>
@@ -37,8 +26,7 @@ const Tab2: React.FC = () => {
           <img alt="black and white dolphin in water" src="https://images.unsplash.com/photo-1607153333879-c174d265f1d2?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1742&q=80" />
           <p>Dolphins range in color depending on the species, from white, pearl, and pink to darker shades of brown, gray, blue, and black. They have smooth skin, flippers, and a dorsal fin. They have a long, slender snout with about 100 teeth and a streamlined body. They have a single blowhole on top of their head, which has a flap that opens to reveal a pair of nostrils. The dolphin uses these nostrils for breathing when it surfaces.</p>
         </div>
-      </IonContent>
-    </IonPage>
+    </MainPage>
   );
 };
 

@@ -2,7 +2,7 @@ import { useEffect } from 'react';
 import { Controller, useForm, SubmitHandler } from 'react-hook-form';
 import { IonInput, IonItem, IonLabel, IonSelect, IonSelectOption, IonText, IonButton, IonIcon, IonThumbnail } from '@ionic/react';
 import { camera } from 'ionicons/icons';
-import { usePhotoGallery, UserPhoto } from '../hooks/usePhotoGallery';
+import { usePhotoGallery, UserPhoto } from '../hooks/usePhotoCamera';
 import './UserForm.css';
 
 type UserInputs = {
